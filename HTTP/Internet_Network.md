@@ -26,7 +26,7 @@
     
     IP 패킷 안에 - TCP 세그먼트 안에 - 전송 데이터가 있다
     
-    - ## TCP - 전송 제어 프로토콜 (Transmission Conrtrol Protocol) (≒신뢰할 수 있는 프로토콜)
+    - ### TCP - 전송 제어 프로토콜 (Transmission Conrtrol Protocol) (≒신뢰할 수 있는 프로토콜)
         - 연결지향 - TCP 3 way handshake (가상 연결임, 물리적연결X) - 그냥 3개가 왔다갔다 하며 논리적 연결이 되었다는 의미. 중간에 많은 서버가 있는지 관심X
         1. SYN ,   2. SYN + ACK ,   3. ACK,    4. 데이터 전송
         1, 2, 3 → 클라이언트와 서버가 서로를 믿을 수 있는거 - 논리적 연결임
@@ -38,7 +38,7 @@
         서버로 패킷 1, 3, 2 순으로 도착했다면?  → 패킷 2부터 다시 보내라고 요청
         - 현재 대부분 TCP 사용
     
-    - ## UDP : 사용자 데이터그램 프로토콜(User Datagram Protocol)
+    - ### UDP : 사용자 데이터그램 프로토콜(User Datagram Protocol)
         - 기능 거의 X
         - 연결 지향, 데이터 전달 보증, 순서 보장 X
         - 데이터 전달 - 순서 보장이 되지 않지만 심플하고 빠름
